@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /* amiko-regular - latin */
 @font-face {
     font-family: 'Amiko';
@@ -23,6 +30,8 @@ body{
     background-color: burlywood;
 }
 .header{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -42,22 +51,32 @@ body{
 }
 .header_text{
     color: #fff;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
     transition: all 0.8s;
 }
 .header_text:hover{
-    transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+        -ms-transform: scale(1.12);
+            transform: scale(1.12);
 }
 .header_chizziq{
     height: 2px;
     width: 60px;
 background-color: rgb(163, 12, 7);
+-webkit-transition: all 0.6s;
+-o-transition: all 0.6s;
 transition: all 0.6s;
 }
 .header_chizziq:hover{
-    transform: translate(60px);
+    -webkit-transform: translate(60px);
+        -ms-transform: translate(60px);
+            transform: translate(60px);
 }
 .header_open{
     margin-top: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     
 }
@@ -65,20 +84,29 @@ transition: all 0.6s;
     border-radius: 50%;
     width: 60px;
     margin-right: 10px;
+    -webkit-transition:all 0.8s;
+    -o-transition:all 0.8s;
     transition:all 0.8s;
 }
 .header_ing:hover{
-    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+            transform: scale(1.4);
     opacity: 0.5;
-    box-shadow: 0 0 2px 2px beige;
+    -webkit-box-shadow: 0 0 2px 2px beige;
+            box-shadow: 0 0 2px 2px beige;
     border-radius: 10px;
 }
 .header_isim{
     color:#fff;
+    -webkit-transition: all 3.8s;
+    -o-transition: all 3.8s;
     transition: all 3.8s;
 }
 .header_isim:hover{
-  transform: rotate(360deg);  
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);  
 }
 
 .section{
@@ -99,24 +127,39 @@ transition: all 0.6s;
     margin-top: 24px;
     width: 579px;
     height: 68px;
-    box-shadow: 0 -1px  2px rgb(182, 179, 179);
+    -webkit-box-shadow: 0 -1px  2px rgb(182, 179, 179);
+            box-shadow: 0 -1px  2px rgb(182, 179, 179);
         border: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .section_soat{
     color: rgb(87, 85, 85);
     margin-left: 30px;
+    -webkit-transition: all 0.9s;
+    -o-transition: all 0.9s;
     transition: all 0.9s;
   
 }
 .section_soat:hover{
-transform: scale(1.4);
+-webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+        transform: scale(1.4);
 }
 .vaqt{
     color: rgb(7, 7, 7);
@@ -137,26 +180,15 @@ color: rgb(92, 92, 92);
 .comment{
     margin-top: 6px;
     width: 21px;
+    -webkit-transition: all 0.9s;
+    -o-transition: all 0.9s;
     transition: all 0.9s;
 }
 .comment:hover{
-    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+        -ms-transform: rotate(720deg);
+            transform: rotate(720deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
