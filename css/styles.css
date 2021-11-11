@@ -19,7 +19,7 @@
 
 
 body{
-    font-size: "Amiko", "Arial";
+    font-size: "Amiko", "Arial", sans-serif;
     background-color: burlywood;
 }
 .header{
