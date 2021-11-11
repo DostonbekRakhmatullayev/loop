@@ -1,0 +1,166 @@
+/* amiko-regular - latin */
+@font-face {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/amiko-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/amiko-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* amiko-700 - latin */
+@font-face {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/amiko-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/amiko-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+body{
+    font-size: "Amiko", "Arial";
+    background-color: burlywood;
+}
+.header{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 900px;
+    height: 470px;
+    background-color: #fff;
+}
+.header_box{
+    width: 350px;
+    height: 440px;
+    background-color: rgb(65, 61, 61)  ;
+}
+.header_box{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.header_text{
+    color: #fff;
+    transition: all 0.8s;
+}
+.header_text:hover{
+    transform: scale(1.12);
+}
+.header_chizziq{
+    height: 2px;
+    width: 60px;
+background-color: rgb(163, 12, 7);
+transition: all 0.6s;
+}
+.header_chizziq:hover{
+    transform: translate(60px);
+}
+.header_open{
+    margin-top: 250px;
+    display: flex;
+    
+}
+.header_ing{
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 10px;
+    transition:all 0.8s;
+}
+.header_ing:hover{
+    transform: scale(1.4);
+    opacity: 0.5;
+    box-shadow: 0 0 2px 2px beige;
+    border-radius: 10px;
+}
+.header_isim{
+    color:#fff;
+    transition: all 0.8s;
+}
+.hader_isim:hover{
+    transform: rotate(360deg);
+}
+.section{
+    width: 550px;
+    padding-top: 30px;
+        padding-right: 30px;
+}
+.section_lorem{
+    margin-left: 30px;     
+    word-spacing: 8px;
+    font-family: Poppins;
+    font-size: 19px;
+    line-height: 28px;
+    color: rgb(61, 61, 61);
+}
+
+.section_footer{
+    /* margin-left: ; */
+    margin-top: 24px;
+    width: 579px;
+    height: 68px;
+    box-shadow: 0 -1px  2px rgb(182, 179, 179);
+        border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.section_soat{
+    color: rgb(87, 85, 85);
+    margin-left: 30px;
+    transition: all 0.9s;
+  
+}
+.section_soat:hover{
+transform: scale(1.4);
+}
+.vaqt{
+    color: rgb(7, 7, 7);
+}
+.raqam{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.morem{
+    margin-right: 30px;
+}
+.link{
+    margin-right: 40px;
+}
+h4{
+color: rgb(92, 92, 92);
+}
+.comment{
+    margin-top: 6px;
+    width: 21px;
+    transition: all 0.9s;
+}
+.comment:hover{
+    transform: rotate(720deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
